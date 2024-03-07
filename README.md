@@ -1,4 +1,4 @@
-# Yzup Mini Proje
+# Milli Teknoloji Akademisi Mini Proje
 
 Bu proje Milli Teknoloji Akademisi Yapay Zeka Uzmanlık Eğitimi kapsamında yapılmıştır.
 
