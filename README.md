@@ -1,38 +1,32 @@
-# Milli Teknoloji Akademisi Mini Proje
+# National Technology Academy Mini Project
 
-Bu proje Milli Teknoloji Akademisi Yapay Zeka Uzmanlık Eğitimi kapsamında yapılmıştır.
+This project was developed as part of the **National Technology Academy Artificial Intelligence Specialization Training**.
 
-## Nasıl Çalıştırırım
+## How to Run
 
-Projeyi kendi bilgisyarınızda çalıştırmak için aşağıdaki komutları sırayla çalıştırınız:
+To run the project on your own computer, execute the commands below in order:
 
-Terminal veya komut istemcisini açın.
+1. Open a terminal or command prompt.
 
-Aşağıdaki komutu kullanarak projeyi klonlayın:
+2. Clone the project using the following command:
+   `git clone https://github.com/hamza37yavuz/YzupProje.git`
 
-`git clone https://github.com/hamza37yavuz/YzupProje.git`
+3. Navigate to the directory where `app.py` is located:
+   `cd YzupProje`
 
-Terminalden app.py dosyasının bulunduğu dizine gidin:
+4. Install the required Python libraries:
+   `pip install -r requirements.txt` or `pip3 install -r requirements.txt`
 
-`cd YzupProje`
+5. Then run the following command to open the Streamlit app:
+   `python -m streamlit run .\app.py` or `streamlit run .\app.py`
 
-Gerekli Python kütüphanelerini yüklemek için aşağıdaki komutu çalıştırın:
+## Running with Docker
 
-`pip -r requirements.txt` veya `pip3 -r requirements.txt`
+If you want to run the project using Docker, go to the directory containing the `Dockerfile` and run these commands in order:
 
-Sonrasında streamlit ekranını görüntülemek için aşağıdaki komutu çalıştırın:
+* `docker build -t my_streamlit_app .`
+* `docker run -p 8501:8501 my_streamlit_app`
 
-`python -m streamlit run .\app.py` veya `streamlit run .\app.py`
+After running the commands, you can access the project at:
 
-Docker kullanarak projeyi çalıştırmak isterseniz, Dockerfile dosyasının bulunduğu dizine gidin ve aşağıdaki komutları sırasıyla çalıştırın:
-
-`docker build -t my_streamlit_app . `
-
-`docker run -p 8501:8501 my_streamlit_app`
-
-Komutları çalıştırdıktan sonra:
-
-[localhost](http://localhost:8501/) linkinden projeye erişebileceksiniz.
-
-
-
+* `http://localhost:8501/`
